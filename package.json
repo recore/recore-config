@@ -1,6 +1,6 @@
 {
   "name": "@recore/tslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TSLint configuration for @recore projects",
   "scripts": {},
   "main": "index.json",
@@ -19,5 +19,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:recore/tslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
