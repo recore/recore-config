@@ -1,3 +1,3 @@
-# tslint-config
+# recore-config
 
-TSLint configuration for @recore projects
+TSLint and TSconfig  for @recore projects

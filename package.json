@@ -1,11 +1,10 @@
 {
-  "name": "@recore/tslint-config",
+  "name": "@recore/config",
   "version": "1.0.1",
-  "description": "TSLint configuration for @recore projects",
-  "scripts": {},
-  "main": "index.json",
+  "description": "TSLint/TSconfig for @recore projects",
   "files": [
-    "index.json"
+    "tslint.json",
+    "tsconfig.json"
   ],
   "dependencies": {
     "prettier": "^1.15",
@@ -18,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:recore/tslint-config.git"
+    "url": "git@github.com:recore/config.git"
   },
   "publishConfig": {
     "access": "public",
