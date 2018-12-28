@@ -26,5 +26,11 @@
     "experimentalDecorators": true,
     // Generates corresponding .map file.
     "sourceMap": true,
+    // Disallow inconsistently-cased references to the same file.
+    "forceConsistentCasingInFileNames": true,
+    // enable all language feature
+    "lib": ["dom", "esnext"],
+    // allow import json
+    "resolveJsonModule": true,
   }
 }
