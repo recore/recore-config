@@ -11,7 +11,7 @@
     "jsx-no-string-ref": true,
     "no-implicit-dependencies": false,
     "no-submodule-imports": false,
-    "prefer-conditional-expression": true,
+    "prefer-conditional-expression": false,
     "object-literal-sort-keys": false,
     "member-access": [true, "no-public"],
     "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
@@ -31,7 +31,7 @@
     "no-empty": [true, "allow-empty-functions"],
     "no-object-literal-type-assertion": true,
     "no-return-await": true,
-    "no-shadowed-variable": false,
+    "no-shadowed-variable": true,
     "no-sparse-arrays": true,
     "no-this-assignment": [true, { "allow-destructuring": true }],
     "no-unsafe-finally": true,
@@ -56,7 +56,8 @@
     "ordered-imports": false,
     "prefer-template": [true, "allow-single-concat"],
     "return-undefined": true,
-    "unnecessary-bind": true
+    "unnecessary-bind": true,
+    "prettier": true
   },
-  "rulesDirectory": []
+  "rulesDirectory": ["tslint-plugin-prettier"]
 }
