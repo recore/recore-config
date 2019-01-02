@@ -26,5 +26,9 @@
     "experimentalDecorators": true,
     // Generates corresponding .map file.
     "sourceMap": true,
+    // Disallow inconsistently-cased references to the same file.
+    "forceConsistentCasingInFileNames": true,
+    // Allow json import
+    "resolveJsonModule": true,
   }
 }
