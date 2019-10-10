@@ -1,14 +1,17 @@
 {
   "name": "@recore/config",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "ESLint/TSconfig for @recore projects",
   "files": [
     ".eslintrc",
     "tsconfig.json"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-react-app": "^5.0.0",
     "eslint-plugin-flowtype": "^4.2.0",
@@ -16,7 +19,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^2.0.0"
   },
   "repository": {
     "type": "git",
