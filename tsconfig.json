@@ -31,5 +31,7 @@
     "forceConsistentCasingInFileNames": true,
     // Allow json import
     "resolveJsonModule": true,
+    // skip type checking of declaration files
+    "skipLibCheck": true,
   }
 }
