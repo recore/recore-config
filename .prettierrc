@@ -1,8 +1,10 @@
 {
+  "arrowParens": "always",
   "eslintIntegration": true,
-  "stylelintIntegration": true,
-  "tabWidth": 2,
-  "useTabs": false,
+  "printWidth": 120,
+  "semi": true,
   "singleQuote": true,
-  "semi": true
+  "trailingComma": "all",
+  "stylelintIntegration": true,
+  "tabWidth": 2
 }
