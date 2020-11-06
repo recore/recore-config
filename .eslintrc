@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 6, //也就是ES6语法支持的意思
+    "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
       "modules": true
@@ -27,6 +27,7 @@
       },
       "rules": {
         "@typescript-eslint/no-var-requires": "off",
+        "arrow-parens": ["error", "as-needed"],
         "jsx-a11y/href-no-hash": [0],
         "jsx-a11y/click-events-have-key-events": [0],
         "jsx-a11y/anchor-is-valid": [ "error", {
@@ -61,6 +62,6 @@
     "@typescript-eslint/no-non-null-assertion": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-parameter-properties": 0, // ["error", { "allows": ["readonly"] }]
-    "react/react-in-jsx-scope": 0,
+    "react/react-in-jsx-scope": 0
   }
 }
