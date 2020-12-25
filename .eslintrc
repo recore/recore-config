@@ -29,7 +29,10 @@
         "*.jsx"
       ],
       "parser": "babel-eslint",
-      "extends": "airbnb",
+      "extends": [
+        "airbnb",
+        "plugin:prettier/recommended"
+      ],
       "env": {
         "browser": true,
         "jest": true,
@@ -37,8 +40,6 @@
       },
       "rules": {
         "@typescript-eslint/no-var-requires": "off",
-        "object-curly-newline": "off",
-        "operator-linebreak": "off",
         "jsx-a11y/href-no-hash": [
           0
         ],
