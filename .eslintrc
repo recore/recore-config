@@ -34,6 +34,7 @@
       },
       "rules": {
         "@typescript-eslint/no-var-requires": "off",
+        "object-curly-newline": "off",
         "jsx-a11y/href-no-hash": [0],
         "jsx-a11y/click-events-have-key-events": [0],
         "jsx-a11y/anchor-is-valid": [ "error", {
@@ -46,7 +47,7 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
         "import/extensions": [0],
         "import/no-unresolved": [0],
-        "class-methods-use-this": [0],
+        "class-methods-use-this": [0]
       },
       "parserOptions": {
         "ecmaFeatures": {
