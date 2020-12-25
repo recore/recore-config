@@ -24,7 +24,10 @@
   ],
   "overrides": [
     {
-      "files": ["*.js", "*.jsx"],
+      "files": [
+        "*.js",
+        "*.jsx"
+      ],
       "parser": "babel-eslint",
       "extends": "airbnb",
       "env": {
@@ -35,19 +38,50 @@
       "rules": {
         "@typescript-eslint/no-var-requires": "off",
         "object-curly-newline": "off",
-        "jsx-a11y/href-no-hash": [0],
-        "jsx-a11y/click-events-have-key-events": [0],
-        "jsx-a11y/anchor-is-valid": [ "error", {
-          "components": [ "Link" ],
-          "specialLink": [ "to" ]
-        }],
-        "jsx-a11y/no-static-element-interactions": [0],
-        "react/react-in-jsx-scope": [0],
-        "react/forbid-prop-types": [0],
-        "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
-        "import/extensions": [0],
-        "import/no-unresolved": [0],
-        "class-methods-use-this": [0]
+        "operator-linebreak": "off",
+        "jsx-a11y/href-no-hash": [
+          0
+        ],
+        "jsx-a11y/click-events-have-key-events": [
+          0
+        ],
+        "jsx-a11y/anchor-is-valid": [
+          "error",
+          {
+            "components": [
+              "Link"
+            ],
+            "specialLink": [
+              "to"
+            ]
+          }
+        ],
+        "jsx-a11y/no-static-element-interactions": [
+          0
+        ],
+        "react/react-in-jsx-scope": [
+          0
+        ],
+        "react/forbid-prop-types": [
+          0
+        ],
+        "react/jsx-filename-extension": [
+          1,
+          {
+            "extensions": [
+              ".js"
+            ]
+          }
+        ],
+        "import/extensions": [
+          0
+        ],
+        "import/no-unresolved": [
+          0
+        ],
+        "class-methods-use-this": [
+          0
+        ]
       },
       "parserOptions": {
         "ecmaFeatures": {
@@ -58,8 +92,18 @@
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": 0,
-    "@typescript-eslint/array-type": ["error", { "default": "array-simple" }],
-    "@typescript-eslint/explicit-member-accessibility": ["error", { "accessibility": "no-public" }],
+    "@typescript-eslint/array-type": [
+      "error",
+      {
+        "default": "array-simple"
+      }
+    ],
+    "@typescript-eslint/explicit-member-accessibility": [
+      "error",
+      {
+        "accessibility": "no-public"
+      }
+    ],
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/no-non-null-assertion": 0,
