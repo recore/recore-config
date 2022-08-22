@@ -1,6 +1,6 @@
 {
   "name": "@recore/config",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "ESLint/TSconfig for @recore projects",
   "files": [
     ".eslintrc",
